@@ -26,7 +26,7 @@
 
 @media (min-width: 992px) {
   .navbar .navbar-brand {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -40,16 +40,22 @@
 
 @media (min-width: 992px) {
   .navbar .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
-}
-
-.navbar .navbar-toggler-icon {
-  color: #000;
 }
 
 @media (min-width: 992px) {
   .navbar {
-    height: 80px;
+    height: 70px;
   }
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
+  background-image: linear-gradient(to top, #93bfb7, #387373);
+}
+
+.footer .footer__social-a {
+  color: #2D3E40;
+  font-size: 1.5rem;
 }
