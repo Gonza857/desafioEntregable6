@@ -55,7 +55,25 @@
   background-image: linear-gradient(to top, #93bfb7, #387373);
 }
 
+@media (min-width: 768px) {
+  .footer .footer__contact-p {
+    font-size: 1.3rem;
+  }
+}
+
 .footer .footer__social-a {
   color: #2D3E40;
   font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .footer .footer__social-a {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .footer__social-a {
+    font-size: 2.4rem;
+  }
 }
