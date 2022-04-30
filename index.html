@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,14 +59,13 @@
         <p>Restaurante porteño</p>
     </div>
   </header>
-
   <!-- CUERPO PRINCIPAL -->
-
-  <main class="">
-
+  <main>
     <!-- CARD 1 -->
-
-    <div class="cardMod p-2 d-flex justify-content-center my-5">
+    <div class="cardMod p-2 d-flex justify-content-center my-5" data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500">
       <div class="cardContent row col-lg-10 d-lg-flex justify-content-center">
         <div class="cardText text-center col-lg-6 d-lg-flex flex-column justify-content-evenly">
           <h3 class="my-2">Nuestra Historia</h3>
@@ -75,121 +73,69 @@
           <a href="./pages/aboutus.html" class="button">Leer más</a>
         </div>
         <div class="cardImgBox mt-3 col-lg-6 mt-lg-0 d-lg-flex justify-content-center">
-          <img src="./assets/images/historia.jpg" alt="" class="cardImg img-fluid">
+          <img src="./assets/images/historia.jpg" alt="" class="cardImg img-fluid rounded">
         </div>
       </div>
     </div>
-
   <!-- CORTE CON IMAGEN CON PARALLAX -->
-
     <div class="cutImg my-2 d-flex justify-content-center" id="parallax1">
-
           <div class="d-flex flex-column justify-content-center" data-aos="fade-up"
           data-aos-duration="3000">
             <h3>Descubre nuestros platos</h3>
-            <a href="./pages/galery.html" class="btn btn-primary w-50 align-self-center">Ver galeria</a>
+            <a href="./pages/galery.html" class="button my-lg-5">Ver galeria</a>
           </div>
-
     </div>
-
     <!-- CARD 2 -->
-
-    <div class="cardMod p-2 d-flex justify-content-center my-5">
+    <div class="cardMod p-2 d-flex justify-content-center my-5" data-aos="fade-right">
       <div class="cardContent row col-lg-10 d-lg-flex justify-content-center">
         <div class="cardText text-center col-lg-6 d-lg-flex flex-column justify-content-evenly order-lg-1">
           <h3 class="my-2">Nuestra recetas</h3>
           <p class="my-2 px-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus modi dignissimos illum sint, ipsum voluptatem corporis iure ipsa voluptatibus inventore?</p>
         </div>
         <div class="cardImgBox mt-3 col-lg-6 mt-lg-0 d-lg-flex justify-content-center order-lg-0">
-          <img src="./assets/images/index__dish.jpg" alt="" class="cardImg img-fluid">
+          <img src="./assets/images/index__dish.jpg" alt="" class="cardImg img-fluid rounded">
         </div>
       </div>
     </div>
-
     <!-- CORTE CON IMAGEN CON PARALLAX -->
-
     <div class="cutImg my-5 d-flex justify-content-center" id="parallax2">
 
       <div class="d-flex flex-column justify-content-center" data-aos="fade-up"
       data-aos-duration="3000">
         <h3>Visita nuestro local</h3>
-        <a href="./pages/ubication.html" class="btn btn-primary w-75 align-self-center">Ver ubicación</a>
+        <a href="./pages/ubication.html" class="button my-lg-5">Ver ubicación</a>
       </div>
-
     </div>
-
-
   </main>
-
-      <!-- <main class="container d-grid justify-content-center">
-        <div class="container mx-auto my-3">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Acerca de nosotros</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <img src="./assets/images/historia.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-8">
-                    <div class="card-body d-flex flex-column">
-                      <h5 class="card-title">Nuestros platos</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <a href="./pages/galery.html" class="btn btn-primary align-self-center">Ver Galeria</a>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <img src="./assets/images/index__dish.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Nuestras bebidas</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <img src="./assets/images/index__drinks.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-8">
-                    <div class="card-body d-flex flex-column">
-                      <h5 class="card-title">Nuestro local</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <a href="#" class="btn btn-primary align-self-center">Ver Ubicacion</a>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <img src="./assets/images/index__resto-front.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                </div>
-              </div>
-      </main> -->
-
-
-
-
-
+  <!-- FOOTER -->
       <footer class="footer container-fluid bg-primary">
         <div class="footer__content row p-1">
             <div class="col-12 d-flex flex-column text-center my-1 flex-sm-row flex-sm-wrap my-sm-3">
-                <p class="footer__contact-p col-sm-6 mb-sm-4"><i class="mx-1 fa fa-whatsapp"></i>+54 9 99 9999-9999</p>
-                <p class="footer__contact-p col-sm-6 mb-sm-4"><i class="mx-1 fa fa-phone"></i>+54 9 99 9999-9999</p>
-                <p class="footer__contact-p col-sm-6"><i class="mx-1 fa-solid fa-envelope"></i>elregional@gmail.com</p>
-                <p class="footer__contact-p col-sm-6"><i class="mx-1 fa-solid fa-location-dot"></i>Av. San Martin 1234</p>
+                <p class="footer__contact-p col-sm-6 mb-sm-4"><lord-icon
+                  src="https://cdn.lordicon.com/uvextprq.json"
+                  trigger="hover"
+                  style="width:30px;height:30px"
+                  class="mx-1">
+              </lord-icon>+54 9 99 9999-9999</p>
+                <p class="footer__contact-p col-sm-6 mb-sm-4"><lord-icon
+                  src="https://cdn.lordicon.com/cnyeuzxc.json"
+                  trigger="hover"
+                  style="width:30px;height:30px"
+                  class="mx-1">
+              </lord-icon>+54 9 99 9999-9999</p>
+                <p class="footer__contact-p col-sm-6"><script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                  <lord-icon
+                      src="https://cdn.lordicon.com/iicmtpsq.json"
+                      trigger="hover"
+                      style="width:30px;height:30px"
+                      class="mx-1">
+                  </lord-icon>elregional@gmail.com</p>
+                <p class="footer__contact-p col-sm-6"><lord-icon
+                  src="https://cdn.lordicon.com/igpbsrza.json"
+                  trigger="hover"
+                  style="width:30px;height:30px"
+                  class="mx-1">
+              </lord-icon>Av. San Martin 1234</p>
             </div>
             <div class="footer__social col-12 d-flex flex-row justify-content-evenly my-1 my-sm-3">
                 <a class="footer__social-a" href="#"><i class="fa fa-instagram"></i></a>
@@ -203,8 +149,6 @@
             </div>
         </div>
       </footer>
-
-
       <!-- BOOTSTRAP -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <!-- AOS -->
@@ -212,6 +156,9 @@
       <script>
         AOS.init();
       </script>
+      <!-- LORDICON -->
+      <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+
 </body>
 </html>
 

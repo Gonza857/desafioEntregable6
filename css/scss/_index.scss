@@ -30,52 +30,7 @@
     .cardText {
         
 
-        .button{
-            align-self: center;
-            display: inline-block;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: $verdeOscuro;
-            outline: 2px solid $verdeOscuro;
-            padding: 8px 16px;
-            position: relative;
-            overflow: hidden;
-            transition: color 1s;
-            font-family: $mainFont;
-            /* MD */
-            width: fit-content;
-            font-weight: 500;
-            font-size: .6rem;
-            letter-spacing: 1px;
-
-            @media (min-width: 1024px) {
-                padding: 15px 30px;
-                font-size: .8rem; 
-            }
-        }
-        .button:hover {
-            color: #fff;
-        }
-        .button::before{
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -50px;
-            width: 150%;
-            height: 100%;
-            background-color: $verdeOscuro;
-            transform: scaleX(0) skewX(35deg);
-            transform-origin: left;
-            z-index: -1;
-            transition: transform 1s;
-        }
         
-        .button:hover::before{
-            transform: scaleX(1) skewX(35deg);
-        }
-        .button:hover::before {
-            transform: scaleX(1) skewX(35deg);
-        }
     }
 
     .cardImgBox {
@@ -98,6 +53,12 @@
  background-size: cover;
  width: 100%;
  height: 200px;
+
+ @media (min-width: 1024px) {
+    height: 450px;
+
+}
+ 
     div {
         h3 {
             color: #c7c7c7;
@@ -111,10 +72,25 @@
      background-size: cover;
      width: 100%;
      height: 200px;
+     @media (min-width: 1024px) {
+        height: 450px;
+    }
         div {
             h3 {
                 color: #c7c7c7;
             }
+            .button {
+                color: $blanco;
+                outline-color: $blanco;
+                font-size: 1rem;   
+            }
+            .button:hover {
+                color: $verdeOscuro;
+            }
+            .button::before {
+                background-color: $blanco;
+            }
+
         }
 }
 
