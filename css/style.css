@@ -97,6 +97,77 @@
   height: 350px;
 }
 
+.cardContent .cardText .button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2D3E40;
+  outline: 2px solid #2D3E40;
+  padding: 8px 16px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  font-family: "Montserrat";
+  /* MD */
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 500;
+  font-size: .6rem;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 1024px) {
+  .cardContent .cardText .button {
+    padding: 15px 30px;
+    font-size: .8rem;
+  }
+}
+
+.cardContent .cardText .button:hover {
+  color: #fff;
+}
+
+.cardContent .cardText .button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 150%;
+  height: 100%;
+  background-color: #2D3E40;
+  -webkit-transform: scaleX(0) skewX(35deg);
+          transform: scaleX(0) skewX(35deg);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.cardContent .cardText .button:hover::before {
+  -webkit-transform: scaleX(1) skewX(35deg);
+          transform: scaleX(1) skewX(35deg);
+}
+
+.cardContent .cardText .button:hover::before {
+  -webkit-transform: scaleX(1) skewX(35deg);
+          transform: scaleX(1) skewX(35deg);
+}
+
+@media (min-width: 1024px) {
+  .cardContent .cardImg {
+    width: 400px;
+    height: 400px;
+  }
+}
+
 #parallax1 {
   display: -webkit-box;
   display: -ms-flexbox;
