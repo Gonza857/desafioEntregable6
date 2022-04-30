@@ -20,27 +20,27 @@
         padding: 15px 30px;
         font-size: .8rem; 
     }
-}
-.button:hover {
-    color: #fff;
-}
-.button::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50px;
-    width: 150%;
-    height: 100%;
-    background-color: $verdeOscuro;
-    transform: scaleX(0) skewX(35deg);
-    transform-origin: left;
-    z-index: -1;
-    transition: transform 1s;
-}
 
-.button:hover::before{
-    transform: scaleX(1) skewX(35deg);
-}
-.button:hover::before {
-    transform: scaleX(1) skewX(35deg);
+    &:hover {
+        color: #fff;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50px;
+        width: 150%;
+        height: 100%;
+        background-color: $verdeOscuro;
+        transform: scaleX(0) skewX(35deg);
+        transform-origin: left;
+        z-index: -1;
+        transition: transform 1s;
+    }
+    &:hover::before{
+        transform: scaleX(1) skewX(35deg);
+    }
+    &:hover::before {
+        transform: scaleX(1) skewX(35deg);
+    }
 }

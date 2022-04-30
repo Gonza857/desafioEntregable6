@@ -1,42 +1,27 @@
 .navbar {
     // background-image: linear-gradient(to top, $verdeClaro, $verdeMedio);
-
-
+    @media (min-width: 992px) {
+        height: 70px;
+    }
     .navbar-brand {
         color: #000;
         font-family: $brandFont;
         transition: all .3s;
-
-
         &:hover {
             transform: scale(1.05);
         }
-
         @media (min-width: 992px) {
             font-size: 2rem;
         }
     }
-
     .nav-link {
         color: #000;
-
         &:hover {
             font-weight: 500;
         }
-
         @media (min-width: 992px) {
             font-size: 1.3rem;
         }
     }
-
-    @media (min-width: 992px) {
-        height: 70px;
-    }
-    @media (min-width:  px) {
-        
-    }
-    @media (min-width:  px) {
-        
-    }
-    
+      
 }

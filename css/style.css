@@ -71,6 +71,12 @@
           transform: scaleX(1) skewX(35deg);
 }
 
+@media (min-width: 992px) {
+  .navbar {
+    height: 70px;
+  }
+}
+
 .navbar .navbar-brand {
   color: #000;
   font-family: "New Rocker";
@@ -103,12 +109,6 @@
   }
 }
 
-@media (min-width: 992px) {
-  .navbar {
-    height: 70px;
-  }
-}
-
 .footer {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
   background-image: linear-gradient(to top, #93bfb7, #387373);
@@ -137,25 +137,8 @@
   }
 }
 
-.carouselMod {
-  height: 500px;
-}
-
-.index__card-img1 {
-  width: 100%;
-  height: 100%;
-}
-
-.index__card-title {
-  font-size: 1rem;
-}
-
-.index__card-text {
-  font-size: .75rem;
-}
-
 .headerMod {
-  background-image: url(../../assets/images/header-bg1.jpg);
+  background-image: url(../assets/images/header-bg1.jpg);
   background-size: cover;
   background-position: center center;
   height: 350px;
@@ -173,7 +156,7 @@
   display: -ms-flexbox;
   display: flex;
   background: #fff fixed no-repeat 50% 50%;
-  background-image: url(../../assets/images/aboutus1.jpg);
+  background-image: url(../assets/images/aboutus1.jpg);
   background-size: cover;
   width: 100%;
   height: 200px;
@@ -194,7 +177,7 @@
   display: -ms-flexbox;
   display: flex;
   background: #fff fixed no-repeat 50% 50%;
-  background-image: url(../../assets/images/index__resto-front.jpg);
+  background-image: url(../assets/images/index__resto-front.jpg);
   background-size: cover;
   width: 100%;
   height: 200px;
