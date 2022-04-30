@@ -1,6 +1,5 @@
 .navbar {
-    background-image: linear-gradient(to top, $verdeClaro, $verdeMedio);
-
+    // background-image: linear-gradient(to top, $verdeClaro, $verdeMedio);
 
 
     .navbar-brand {
@@ -28,10 +27,6 @@
         @media (min-width: 992px) {
             font-size: 1.3rem;
         }
-    }
-
-    .navbar-toggler-icon {
-
     }
 
     @media (min-width: 992px) {

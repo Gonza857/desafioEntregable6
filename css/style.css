@@ -7,11 +7,6 @@
   list-style: none;
 }
 
-.navbar {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
-  background-image: linear-gradient(to top, #93bfb7, #387373);
-}
-
 .navbar .navbar-brand {
   color: #000;
   font-family: "New Rocker";
@@ -76,4 +71,58 @@
   .footer .footer__social-a {
     font-size: 2.4rem;
   }
+}
+
+.carouselMod {
+  height: 500px;
+}
+
+.index__card-img1 {
+  width: 100%;
+  height: 100%;
+}
+
+.index__card-title {
+  font-size: 1rem;
+}
+
+.index__card-text {
+  font-size: .75rem;
+}
+
+.headerMod {
+  background-image: url(../../assets/images/header-bg1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+#parallax1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff fixed no-repeat 50% 50%;
+  background-image: url(../../assets/images/aboutus1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#parallax1 div h3 {
+  color: #c7c7c7;
+}
+
+#parallax2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff fixed no-repeat 50% 50%;
+  background-image: url(../../assets/images/index__resto-front.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#parallax2 div h3 {
+  color: #c7c7c7;
 }

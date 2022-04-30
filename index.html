@@ -11,16 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=New+Rocker&display=swap" rel="stylesheet">
     <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/7edc31cc34.js" crossorigin="anonymous"></script>
-    <!-- LINK ESTILOS CSS -->
+    <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- MI CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- TITULO -->
     <title>El Regional</title>
 </head>
-<body>
-    <!-- NAVBAR -->
-    <nav class="container-fluid navbar navbar-expand-sm navbar-light d-sm-flex">
+<body class="row">
+
+  <!-- HEADER CON NAVBAR E IMAGEN DE PRESENTACION -->
+
+  <header class="container p-0 headerMod d-flex flex-column justify-content-center">
+    <nav class="container-fluid navbar navbar-expand-sm navbar-light bg-transparent navbarMod fixed-top">
         <div class="container-fluid d-md-flex">
         <!-- left -->
             <div class="collapse navbar-collapse order-3 order-sm-0" id="navbarNav">
@@ -49,8 +54,74 @@
             </ul>
           </div>
         </div>
-      </nav>
-      <main class="container d-grid justify-content-center">
+    </nav>
+    <div class="boxTitle col-6 px-3 ml-2">
+        <h2 class="card-title">El Regional</h2>
+        <p>Restaurante porteño</p>
+    </div>
+  </header>
+
+  <!-- CUERPO PRINCIPAL -->
+
+  <main class="my-5">
+
+    <!-- CARD 1 -->
+
+    <div class="cardMod p-2 row">
+      <div class="cardContent">
+        <div class="cardText text-center">
+          <h3 class="my-2">Nuestra Historia</h3>
+          <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus modi dignissimos illum sint, ipsum voluptatem corporis iure ipsa voluptatibus inventore?</p>
+          <a href="./pages/aboutus.html" class="link">Leer más</a>
+        </div>
+        <div class="cardImgBox mt-3">
+          <img src="./assets/images/historia.jpg" alt="" class="cardImg img-fluid">
+        </div>
+      </div>
+    </div>
+
+  <!-- CORTE CON IMAGEN CON PARALLAX -->
+
+    <div class="cutImg my-2 d-flex justify-content-center" id="parallax1">
+
+          <div class="d-flex flex-column justify-content-center" data-aos="fade-up"
+          data-aos-duration="3000">
+            <h3>Descubre nuestros platos</h3>
+            <a href="./pages/galery.html" class="btn btn-primary w-50 align-self-center">Ver galeria</a>
+          </div>
+
+    </div>
+
+    <!-- CARD 2 -->
+
+    <div class="cardMod p-2">
+      <div class="cardContent">
+        <div class="cardText text-center">
+          <h3 class="my-2">Nuestras recetas</h3>
+          <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus modi dignissimos illum sint, ipsum voluptatem corporis iure ipsa voluptatibus inventore?</p>
+        </div>
+        <div class="cardImgBox mt-3">
+          <img src="./assets/images/index__dish.jpg" alt="" class="cardImg img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <!-- CORTE CON IMAGEN CON PARALLAX -->
+
+    <div class="cutImg my-5 d-flex justify-content-center" id="parallax2">
+
+      <div class="d-flex flex-column justify-content-center" data-aos="fade-up"
+      data-aos-duration="3000">
+        <h3>Visita nuestro local</h3>
+        <a href="./pages/ubication.html" class="btn btn-primary w-75 align-self-center">Ver ubicación</a>
+      </div>
+
+    </div>
+
+
+  </main>
+
+      <!-- <main class="container d-grid justify-content-center">
         <div class="container mx-auto my-3">
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
@@ -106,8 +177,12 @@
                   </div>
                 </div>
               </div>
-      </main>
-      <!-- FOOTER -->
+      </main> -->
+
+
+
+
+
       <footer class="footer container-fluid bg-primary">
         <div class="footer__content row p-1">
             <div class="col-12 d-flex flex-column text-center my-1 flex-sm-row flex-sm-wrap my-sm-3">
@@ -128,7 +203,15 @@
             </div>
         </div>
       </footer>
+
+
+      <!-- BOOTSTRAP -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <!-- AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 
