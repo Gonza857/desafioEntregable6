@@ -144,7 +144,7 @@
 }
 
 .headerMod {
-  background-image: url(../../assets/images/header-bg1.jpg);
+  background-image: url(../assets/images/header-bg1.jpg);
   background-size: cover;
   background-position: center center;
   height: 350px;
@@ -175,7 +175,7 @@
   display: -ms-flexbox;
   display: flex;
   background: #fff fixed no-repeat 50% 50%;
-  background-image: url(../../assets/images/aboutus1.jpg);
+  background-image: url(../assets/images/aboutus1.jpg);
   background-size: cover;
   width: 100%;
   height: 200px;
