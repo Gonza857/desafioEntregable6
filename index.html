@@ -24,34 +24,41 @@
   <!-- HEADER CON NAVBAR E IMAGEN DE PRESENTACION -->
 
   <header class="container p-0 headerMod d-flex flex-column justify-content-center">
-    <nav class="container-fluid navbar navbar-expand-sm navbar-light bg-transparent navbarMod fixed-top">
-        <div class="container-fluid d-md-flex">
-        <!-- left -->
-            <div class="collapse navbar-collapse order-3 order-sm-0" id="navbarNav">
-                <ul class="navbar-nav w-100 d-flex justify-content-evenly">
+    <nav class="navbar navbar-expand-lg navbar-expand-xl mb-5 navbar-light fixed-top navbarMod">
+        <div class="container-fluid">
+          <a class="navbar-brand order-0 text-dark" href="#">El Regional</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end w-50 " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header offCanvasBg">
+              <h5 class="navbar-brand my-1" id="offcanvasNavbarLabel">El Regional</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-light">
+              <!-- left -->
+              <ul class="navbar-nav w-100 d-flex justify-content-evenly">
+                <li class="nav-item">
+                    <a class="nav-link text-black text-black" href="./pages/aboutus.html">Acerca de nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="./pages/galery.html">Galeria</a>
+                </li>
+              </ul>
+              <!-- right -->
+              <ul class="navbar-nav w-100 d-flex justify-content-evenly">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Acerca de nosotros</a>
+                      <a class="nav-link text-black" href="#">Ubicacion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/galery.html">Galeria</a>
+                      <a class="nav-link text-black" href="#">Contactanos</a>
                   </li>
                 </ul>
             </div>
-          <a class="navbar-brand order-1" href="#">El Regional</a>
-          <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- right -->
-          <div class="collapse navbar-collapse order-4" id="navbarNav">
-            <ul class="navbar-nav w-100 d-flex justify-content-evenly">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Ubicacion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contactanos</a>
-                </li>
-            </ul>
           </div>
+
+
+
         </div>
     </nav>
     <div class="boxTitle col-6 px-3 ml-2">
