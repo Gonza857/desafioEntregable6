@@ -102,6 +102,7 @@
 
 .navbar .nav-link {
   color: #000;
+  font-family: "Montserrat";
 }
 
 .navbar .nav-link:hover {
@@ -147,6 +148,13 @@
   background-size: cover;
   background-position: center center;
   height: 350px;
+  margin-top: 69px;
+}
+
+@media (max-width: 992px) {
+  .headerMod {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1024px) {

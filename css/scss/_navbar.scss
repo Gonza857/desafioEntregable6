@@ -16,6 +16,7 @@
     }
     .nav-link {
         color: #000;
+        font-family: $mainFont;
         &:hover {
             font-weight: 500;
         }
