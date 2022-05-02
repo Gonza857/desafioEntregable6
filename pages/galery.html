@@ -20,44 +20,46 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top navbarMod">
+  <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-fluid">
-        <a class="navbar-brand order-0 text-dark d-md-none" href="../index.html">El Regional</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="offcanvas offcanvas-end w-50 " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header offCanvasBg">
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <a class="navbar-brand d-md-none" href="#">El Regional</a>
+      <button 
+        class="navbar-toggler" type="button" data-bs-toggle="offcanvas"   data-bs-target="#offcanvas"   aria-controls="offcanvas">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end p-0 w-50"
+      tabindex="-1" id="offcanvas"    aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header offCanvasHeaderMod">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <!-- left -->
-            <ul class="navbar-nav w-100 d-flex align-items-center justify-content-evenly">
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="./pages/aboutus.html">Acerca de nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="./pages/galery.html">Galeria</a>
-                </li>
-            </ul>
-            <a class="navbar-brand order-0 text-dark d-none d-md-block" href="../index.html">El Regional</a>
-            <!-- right -->
-            <ul class="navbar-nav w-100 d-flex align-items-center justify-content-evenly">
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="./ubication.html">Ubicacion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="./contact.html">Contactanos</a>
-                </li>
-                </ul>
-            </div>
+          <!-- LEFT LIST -->
+          <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galery.html">Galeria</a>
+            </li>
+          </ul>
+          <a class="navbar-brand d-none d-md-block" href="../index.html">El Regional</a>
+          <!-- RIGHT LIST -->
+          <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
+            <li class="nav-item">
+              <a class="nav-link" href="./ubication.html">Ubicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contactanos</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
   </nav>
   <!-- CUERPO -->
   <main class="container">
       <!-- IMG BOX -->
-      <div class="container-fluid my-2 mt-5 pt-5">
+      <div class="container-fluid my-2 mt-2">
         <div class="jumbotron">
           <h1 class="text-center">Galeria de platos</h1>
         </div>

@@ -20,54 +20,69 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top navbarMod">
+    <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand order-0 text-dark d-md-none" href="../index.html">El Regional</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="offcanvas offcanvas-end w-50 " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header offCanvasBg">
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <a class="navbar-brand d-md-none" href="#">El Regional</a>
+          <button 
+            class="navbar-toggler" type="button" data-bs-toggle="offcanvas"   data-bs-target="#offcanvas"   aria-controls="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end p-0 w-50"
+          tabindex="-1" id="offcanvas"    aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header offCanvasHeaderMod">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <!-- left -->
-                <ul class="navbar-nav w-100 d-flex align-items-center justify-content-evenly">
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="./pages/aboutus.html">Acerca de nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="./pages/galery.html">Galeria</a>
-                    </li>
-                </ul>
-                <a class="navbar-brand order-0 text-dark d-none d-md-block" href="../index.html">El Regional</a>
-                <!-- right -->
-                <ul class="navbar-nav w-100 d-flex align-items-center justify-content-evenly">
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="./ubication.html">Ubicacion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="./contact.html">Contactanos</a>
-                    </li>
-                    </ul>
-                </div>
+              <!-- LEFT LIST -->
+              <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
+                <li class="nav-item">
+                  <a class="nav-link" href="./aboutus.html">Acerca de nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./galery.html">Galeria</a>
+                </li>
+              </ul>
+              <a class="navbar-brand d-none d-md-block" href="../index.html">El Regional</a>
+              <!-- RIGHT LIST -->
+              <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
+                <li class="nav-item">
+                  <a class="nav-link" href="./ubication.html">Ubicacion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contactanos</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
     </nav>
-    <main class="aboutUs__box">
-        <h2 class="aboutUs__title">Acerca de nosotros<h2>
-        <div class="aboutUs__card">
-            <img class="aboutUs__card-img" src="../assets/images/aboutus1.jpg" alt="Imagen cocinando">
-            <div class="aboutUs__card-text">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque error voluptatibus delectus ad labore unde eligendi, suscipit, maxime quis eaque deserunt. Repellendus, impedit? Officia error inventore voluptates numquam quod laborum earum laudantium perspiciatis nisi ipsa placeat qui porro, modi quia.</p>
+    <!-- FIN DE NAVBAR -->
+    <!-- CUERPO -->
+    <main>
+         <!-- CARD 1 -->
+        <div class="cardMod p-2 d-flex justify-content-center my-5" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+            <div class="cardContent row col-md-10 d-md-flex justify-content-center">
+            <div class="cardText text-center col-md-6 d-md-flex flex-column justify-content-evenly">
+                <h3 class="my-2">Nuestra Historia</h3>
+                <p class="my-2 px-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus modi dignissimos illum sint, ipsum voluptatem corporis iure ipsa voluptatibus inventore?</p>
+                <a href="./pages/aboutus.html" class="button">Leer más</a>
+            </div>
+            <div class="cardImgBox mt-3 col-md-6 mt-md-0 d-md-flex justify-content-center">
+                <img src="../assets/images/aboutus1.jpg" alt="" class="aboutUsImg img-fluid rounded">
+            </div>
             </div>
         </div>
-        <div class="aboutUs__card">
-            <img class="aboutUs__card-img" src="../assets/images/aboutus2.jpg" alt="Imagen de nuestra cocina">
-            <div class="aboutUs__card-text">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque error voluptatibus delectus ad labore unde eligendi, suscipit, maxime quis eaque deserunt. Repellendus, impedit? Officia error inventore voluptates numquam quod laborum earum laudantium perspiciatis nisi ipsa placeat qui porro, modi quia.</p>
+        <!-- CARD 2 -->
+        <div class="cardMod p-2 d-flex justify-content-center mb-5" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+            <div class="cardContent row col-md-10 d-md-flex justify-content-center">
+            <div class="cardText text-center col-md-6 d-md-flex flex-column justify-content-evenly order-1">
+                <h3 class="my-2">Nuestra Historia</h3>
+                <p class="my-2 px-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus modi dignissimos illum sint, ipsum voluptatem corporis iure ipsa voluptatibus inventore?</p>
+                <a href="./pages/aboutus.html" class="button">Leer más</a>
+            </div>
+            <div class="cardImgBox mt-3 col-md-6 mt-md-0 d-md-flex justify-content-center order-0">
+                <img src="../assets/images/aboutus2.jpg" alt="" class="aboutUsImg img-fluid rounded">
+            </div>
             </div>
         </div>
     </main>

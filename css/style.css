@@ -76,12 +76,6 @@
   background-image: linear-gradient(to top, #93bfb7, #387373);
 }
 
-@media (min-width: 992px) {
-  .navbar {
-    height: 70px;
-  }
-}
-
 .navbar .navbar-brand {
   color: #000;
   font-family: "New Rocker";
@@ -100,13 +94,8 @@
   }
 }
 
-.navbar .nav-link {
-  color: #000;
-  font-family: "Montserrat";
-}
-
 .navbar .nav-link:hover {
-  font-weight: 500;
+  color: #000;
 }
 
 @media (min-width: 992px) {
@@ -147,8 +136,29 @@
   background-image: url(../assets/images/header-bg1.jpg);
   background-size: cover;
   background-position: center center;
-  height: 350px;
-  margin-top: 69px;
+  height: 450px;
+}
+
+.headerMod .imgContent {
+  padding-left: 30px;
+}
+
+@media (min-width: 576px) {
+  .headerMod .imgContent {
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerMod .imgContent {
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .headerMod .imgContent {
+    margin-left: 250px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -157,17 +167,17 @@
   }
 }
 
+.headerMod .offCanvasHeaderMod {
+  height: 57px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
+  background-image: linear-gradient(to top, #93bfb7, #387373);
+}
+
 @media (min-width: 1024px) {
   .cardContent .cardImg {
     width: 400px;
     height: 400px;
   }
-}
-
-.offCanvasBg {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
-  background-image: linear-gradient(to top, #93bfb7, #387373);
-  height: 56px;
 }
 
 #parallax1 {
@@ -236,4 +246,11 @@
 
 #parallax2 div .button::before {
   background-color: #e4f2e7;
+}
+
+@media (min-width: 1024px) {
+  .cardContent .aboutUsImg {
+    width: 600px;
+    height: 400px;
+  }
 }
