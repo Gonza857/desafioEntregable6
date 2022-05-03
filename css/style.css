@@ -104,6 +104,12 @@
   }
 }
 
+.offCanvasHeaderMod {
+  height: 57px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
+  background-image: linear-gradient(to top, #93bfb7, #387373);
+}
+
 .footer {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
   background-image: linear-gradient(to top, #93bfb7, #387373);
@@ -270,4 +276,95 @@
     width: 600px;
     height: 400px;
   }
+}
+
+.ubication {
+  margin: 20px auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px -5px #000000;
+          box-shadow: 0px 0px 10px -5px #000000;
+}
+
+.ubication .ubication__title {
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 10px 0;
+}
+
+.ubication .ubication__card .ubication__card-iframe .ubication__iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ubication .ubication__card-data .ubication__info {
+  font-family: "Montserrat";
+}
+
+.ubication .ubication__card-data .ubication__info h3 {
+  text-align: center;
+}
+
+.ubication .ubication__card-data .ubication__info p {
+  line-height: 30px;
+  text-align: center;
+}
+
+.ubication .ubication__card-data .ubication__time {
+  font-family: "Montserrat";
+}
+
+.ubication .ubication__card-data .ubication__time h3 {
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.ubication .ubication__card-data .ubication__time .ubication__time-box {
+  text-align: left;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.ubication .ubication__card-data .ubication__time .ubication__time-box p {
+  padding: 10px 0;
+}
+
+.ubication .ubication__card-data .ubication__time .ubication__time-box p i {
+  padding: 5px;
+}
+
+.form {
+  max-width: 900px;
+  border-radius: 10px;
+  background-color: #93bfb7;
+  -webkit-box-shadow: 0px 0px 15px -5px #000000;
+          box-shadow: 0px 0px 15px -5px #000000;
+}
+
+.form .form__title {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+@media (min-width: 768px) {
+  .form div .formImgBox {
+    padding-left: 50px;
+  }
+}
+
+.btnMod {
+  background-color: #2D3E40;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #e4f2e7;
+  font-family: "Montserrat";
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+#mensaje {
+  resize: none;
 }
